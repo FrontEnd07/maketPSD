@@ -42,6 +42,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'HurmeGeometricSans4-regular';
 }
 
 .row {
@@ -67,7 +68,6 @@ header > div {
 header a {
     color: #ffffff;
     text-decoration: none;
-    font-family: 'HurmeGeometricSans4-regular';
 }
 
 .menu > a {
@@ -97,6 +97,7 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .heading {
@@ -113,9 +114,62 @@ header a {
 
 .heading_p_2 {
     font-size: 18px;
-    font-family: 'HurmeGeometricSans4-regular';
 }
 
 .heading p {
     margin: 0;
+}
+
+.searc_now {
+    margin-top: 33.5px;
+    height: 55.43px;
+    display: flex;
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.you_looking > input {
+    box-sizing: border-box;
+    height: 100%;
+    padding-left: 24px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+}
+
+.your_location {
+    padding: 0 20px;
+    display: flex;
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
+}
+
+.button > button {
+    height: 44.96px;
+    border-radius: 22px;
+    border: none;
+    font-size: 17px;
+    padding: 0px 20px;
+    background: #00a651;
+    cursor: pointer;
+    color: #fff;
+}
+
+.select_category {
+    display: flex;
+    padding: 0 20px;
+}
+
+.your_location > select, .select_category > select {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 171px;
 }
