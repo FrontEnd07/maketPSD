@@ -186,24 +186,69 @@ header a {
 }
 
 .categories_icon {
-    margin: 50px 25px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .categories_icon > div {
     display: flex;
     flex-direction: column;
-    width: 62px;
-    height: 62px;
+    width: 120px;
+    margin: 37.23px 37px;
+    height: 120px;
     justify-content: space-evenly;
     align-items: center;
+    color: #fff;
     border-radius: 50%;
-    padding: 20px;
 }
 
 .categories_vehicles {
     background: #53b9c5;
-    color: #fff;
+}
+
+.categories_electronics {
+    background: #d5658d;
+}
+
+.categories_mobiles {
+    background: #ebaf2d;
+}
+
+.categories_furniture {
+    background: #b89579;
+}
+
+.categories_fashion {
+    background: #a567cc;
+}
+
+.categories_jobs {
+    background: #00a651;
+}
+
+.categories_real_estate {
+    background: #81d050;
+}
+
+.categories_animals {
+    background: #a0bd2d;
+}
+
+.categories_education {
+    background: #757790;
+}
+
+.categories_baby {
+    background: #ef64bd;
+}
+
+.categories_services {
+    background: #f4721e;
+}
+
+.categories_matrimony {
+    background: #f05458;
 }
 
 .your_location > select, .select_category > select {
@@ -211,10 +256,6 @@ header a {
     outline: none;
     cursor: pointer;
     width: 171px;
-}
-
-.categories_icon > div > img {
-    width: 63px;
 }
 
 .categories_icon > div > span {
