@@ -10,6 +10,17 @@
 }
 
 @font-face {
+    font-family: 'HurmeGeometricSans4-LightObl';
+    src: url('./../Fonts/HurmeGeometric/HurmeGeometricSans4-LightObl.eot');
+    src: local('☞HurmeGeometricSans4 LightObl'), local('HurmeGeometricSans4-LightObl'),
+    url('./../Fonts/HurmeGeometric/HurmeGeometricSans4-LightObl.eot?#iefix') format('embedded-opentype'),
+    url('./../Fonts/HurmeGeometric/HurmeGeometricSans4-LightObl.woff') format('woff'),
+    url('./../Fonts/HurmeGeometric/HurmeGeometricSans4-LightObl.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'HurmeGeometricSans4-SemiBold';
     src: url('./../Fonts/HurmeGeometric/HurmeGeometricSans4-SemiBold.eot');
     src: local('☞HurmeGeometricSans4 SemiBold'), local('HurmeGeometricSans4-SemiBold'),
@@ -179,10 +190,12 @@ header a {
 .categories_p_1 {
     font-family: 'HurmeGeometricSans4-SemiBold';
     font-size: 25px;
+    margin: 0;
 }
 
 .categories_p_2 {
     font-size: 17px;
+    margin: 0;
 }
 
 .categories_icon {
@@ -262,3 +275,138 @@ header a {
     font-size: 15px;
 }
 
+/*Блок избранных объявлении*/
+
+.FeaturedAds__heading {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.FeaturedAds {
+    background: #f8f8f8;
+}
+
+.ItemAds {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ItemAds__Ads {
+    width: 270px;
+}
+
+.ItemAds__Ads--offer {
+    position: relative;
+    display: flex;
+}
+
+.ItemAds__Ads--offer--new {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    border-radius: 20px;
+    background: #fbaf2a;
+    width: 66.78px;
+    display: flex;
+    font-size: 13px;
+    height: 29.41px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.ItemAds__Ads--offer--Discount {
+    position: absolute;
+    color: #fff;
+    top: 16px;
+    left: 15px;
+    border-radius: 19px;
+    font-size: 13px;
+    padding: 9px 8px;
+    background: #ff0078;
+}
+
+.ItemAds__Ads--offer--price {
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: 16px;
+    right: 15px;
+    color: #fff;
+    font-size: 13px;
+    padding: 9px 8px;
+    border-radius: 18px;
+}
+
+.ItemAds__Ads--AdsDatiles {
+    background: #fff;
+    padding: 20px 16px;
+}
+
+.ItemAds__Ads--AdsDatiles--heading--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ItemAds__Ads--AdsDatiles--heading--header > i {
+    color: #00a651;
+}
+
+.ItemAds__Ads--AdsDatiles--heading--header > span {
+    font-size: 18px;
+    font-family: 'HurmeGeometricSans4-SemiBold';
+}
+
+.ItemAds__Ads--AdsDatiles--heading--desc > span {
+    font-size: 15px;
+    color: #8995a2;
+}
+
+.ItemAds__Ads--AdsDatiles--heading--star > i {
+    color: #fbaf2a;
+}
+
+.ItemAds__Ads--AdsDatiles--loction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.ItemAds__Ads--AdsDatiles--loction--address > span {
+    font-size: 13px;
+    color: #8995a2;
+}
+
+.ItemAds__Ads--AdsDatiles--loction--address > i {
+    color: #00a651;
+    font-size: 13px;
+}
+
+.ItemAds__Ads--AdsDatiles--heading--desc {
+    padding: 10px 0;
+}
+
+.ItemAds__Ads--AdsDatiles--loction--save {
+    padding: 5px;
+    border-radius: 19px;
+    color: #a2abb5;
+    font-size: 13px;
+    border: 1px solid #a2abb5;
+}
+
+.FeaturedAds__ViewAll {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.FeaturedAds__ViewAll > button {
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    background: #00a651;
+    border-radius: 22px;
+    color: #fff;
+}
