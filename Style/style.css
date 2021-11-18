@@ -301,16 +301,16 @@ header a {
     display: flex;
 }
 
-.ItemAds__Ads--offer--new {
+.ItemAds__Ads--offer--new, .TrendingAds__item--list--offer--new {
     position: absolute;
     top: 16px;
     left: 15px;
     border-radius: 20px;
     background: #fbaf2a;
-    width: 66.78px;
+    min-width: 66.78px;
     display: flex;
     font-size: 13px;
-    height: 29.41px;
+    padding: 9px 8px;
     align-items: center;
     justify-content: center;
     color: #fff;
@@ -409,4 +409,76 @@ header a {
     background: #00a651;
     border-radius: 22px;
     color: #fff;
+}
+
+/*Блок актуальные объявления*/
+.TrendingAds__heading {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.TrendingAds__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.TrendingAds__item--list {
+    max-width: 369.99px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.TrendingAds__item--list--offer {
+    position: relative;
+    display: flex;
+}
+
+.TrendingAds__item--list--offer--heading {
+    position: absolute;
+    left: 19px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.TrendingAds__item--list--offer--heading--title {
+    font-size: 18px;
+    font-family: HurmeGeometricSans4-SemiBold;
+}
+
+.TrendingAds__item--list--offer--heading--desc {
+    font-size: 14px;
+}
+
+.TrendingAds__item--list--adsDatiles {
+    background: #f8f8f8;
+    padding: 19.53px 13.51px;
+}
+
+.TrendingAds__item--list--adsDatiles--header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 13px;
+}
+
+.TrendingAds__item--list--adsDatiles--header--info {
+    display: flex;
+    font-size: 15px;
+    color: #a0a9b4;
+}
+
+.TrendingAds__item--list--adsDatiles--header--info--save {
+    margin-right: 12px;
+}
+
+.TrendingAds__item--list--adsDatiles--header--category {
+    color: #00a651;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: HurmeGeometricSans4-SemiBold;
 }
